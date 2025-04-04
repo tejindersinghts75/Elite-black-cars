@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-dm-sans);
+}
+
+body {
+  color: #181A1F;
+}
+
+.container {
+  max-width: 1190px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 62px;
+}
+
+h2 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 54px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.body-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.body-text-small {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.button {
+  padding: 10px 21px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.83px;
+  transition: 0.5s all;
+}
+
+.slider-over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.start,
+.end {
+  flex: 1;
+}
+
+.center {
+  width: 1200px;
+}
+
+.start {
+  background: #fff;
+  position: relative;
+  z-index: 10;
+}
+button.bg-orange.button:hover {
+  color: #000;
+  background-color: #fff;
+}
+button.bg-white.button:hover{
+  color: #fff;
+  background-color:#E95440 ;
+}
+.top-move{
+  position: relative;
+  transition: 0.5s all;
+  bottom: 0;
+}
+.top-move:hover{
+  bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+}
