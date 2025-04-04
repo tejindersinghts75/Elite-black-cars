@@ -10,7 +10,7 @@ type ToproutesCardProps = {
 const ToproutesCard: React.FC<ToproutesCardProps> = ({ City1, City2, image }) => {
     return (
 
-        <div className='ToproutesCard bg-[#cccccc59] overflow-hidden rounded-2xl'>
+        <div className='ToproutesCard bg-[#cccccc59] overflow-hidden rounded-md'>
             <div className='image'>
                 <img src={image} alt="" />
             </div>
