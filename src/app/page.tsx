@@ -17,6 +17,7 @@ import Footer from "@/footer/Footer";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Toproutes from "@/components/toproutes/toproutes";
 export default function Home() {
 
   useEffect(() => {
@@ -39,6 +40,7 @@ export default function Home() {
       <Region />
       <News />
       <Faq />
+      <Toproutes />
       <Footer />
     </>
   );
