@@ -20,6 +20,7 @@ import 'aos/dist/aos.css';
 import Toproutes from "@/components/toproutes/toproutes";
 export default function Home() {
 
+  
   useEffect(() => {
     AOS.init({
       duration: 800,
