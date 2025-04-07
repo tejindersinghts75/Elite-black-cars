@@ -27,7 +27,6 @@ const Toproutesdata = [
         City1: "JKF",
         City2: "NYC",
         image: "/images/news1.jpg"
-
     }
 ]
 const Toproutes = () => {
