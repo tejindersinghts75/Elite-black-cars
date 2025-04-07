@@ -17,7 +17,7 @@ import Footer from "@/footer/Footer";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Toproutes from "@/components/toproutes/toproutes";
+import Toproutes from "@/components/toproutesf/Toproutes";
 export default function Home() {
 
   

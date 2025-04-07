@@ -17,7 +17,7 @@ const ServicesCard: React.FC<ServicesCardProps> = ({ title, description, image }
       <div className="card-text text-white p-4 relative z-10">
         <h4>{title}</h4>
         <div className="card-info">
-          <p className="mb-2">{description}</p>
+          <p dangerouslySetInnerHTML={{ __html: description }} className="mb-2"></p>
           <div className="icon rounded-full border border-white w-[50px] h-[50px] flex items-center justify-center">
             <FiArrowUpRight className="text-white" />
           </div>

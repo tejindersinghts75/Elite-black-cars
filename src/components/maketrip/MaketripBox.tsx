@@ -8,7 +8,7 @@ const MaketripBox = ({ icon: Icon, title, description }: { icon: React.ElementTy
         <Icon className="text-[#000] text-[25px]" />
       </div>
       <h4 className="my-3">{title}</h4>
-      <p className="body-text">{description}</p>
+      <p className="body-text" dangerouslySetInnerHTML={{ __html: description }}></p>
     </div>
   );
 };

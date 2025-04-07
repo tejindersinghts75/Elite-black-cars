@@ -46,7 +46,8 @@ const Region: React.FC = () => {
                     <div className="region-text md:ps-20">
                         <h2>From the region, for the region </h2>
                         <p className="my-6">
-                            Superide operates in more than 120 cities in 18 countries from Morocco to Pakistan.
+                        We provide <b>premium travel services</b> across <b> New York City and up to 300 miles beyond,</b> ensuring <b>luxury, comfort, and reliability</b> for every journey. Whether you need a<b> private chauffeur, long-distance cab, corporate travel, or airport transfer,</b> we cover key locations, including:
+                       <br/><br/> New York City | Philadelphia | Boston | Washington D.C. | Baltimore | Albany | Hartford | Syracuse | Pittsburgh | Buffalo
                         </p>
                         <button className="flex items-center gap-2 bg-dark text-white hover:bg-orange ease-in duration-300 rounded py-4 px-8 font-semibold">
                             View All Cities <GoArrowUpRight />

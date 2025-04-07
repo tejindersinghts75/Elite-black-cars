@@ -18,14 +18,15 @@ const ReviewItem: React.FC<Reviewprop> =  ({ name, position, review, avatar, sta
             <b>{name}</b>
           </p>
           <p className="body-text">{position}</p>
+          
         </div>
       </div>
 
       <img src={stars} className="my-6" alt="Stars rating" />
 
-      <p className="md:text-[24px] text-[18px] max-w-[420px] font-semibold">
-        {review}
-      </p>
+      <div dangerouslySetInnerHTML={{ __html: review }} className="md:text-[24px] text-[18px] max-w-[420px] font-semibold">
+     
+      </div>
     </div>
   );
 };

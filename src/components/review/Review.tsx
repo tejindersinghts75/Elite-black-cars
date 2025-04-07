@@ -7,28 +7,28 @@ import './review.css'
 const reviewData = [
   {
     id: 1,
-    name: "Somalia D. Silva",
+    name: "Michael R",
     position: "Business Manager",
     review:
-      "On the other hand denounce righteous indignation and dislike men who beguile and demoralize charms pleasure the moment blinded desire cannot foresee pain and trouble that are bound to ensue.",
+      "Timely pickup, smooth ride, and an incredibly comfortable luxury sedan.  My <b> best airport car service, for airport transfers.</b>",
     avatar: "/images/review-info.png",
     stars: "/images/star.png",
   },
   {
     id: 2,
-    name: "John Doe",
+    name: "David M",
     position: "Project Manager",
     review:
-      "On the other hand denounce righteous indignation and dislike men who beguile and demoralize charms pleasure the moment blinded desire cannot foresee pain and trouble that are bound to ensue.",
+      "Needed a last-minute executive car for a business meeting, and they delivereda<b> premium black car</b> beyondexpectations. Highly recommend.",
     avatar: "/images/review-info.png",
     stars: "/images/star.png",
   },
   {
     id: 2,
-    name: "John Doe",
+    name: "Jessica and Mark ",
     position: "Project Manager",
     review:
-      "On the other hand denounce righteous indignation and dislike men who beguile and demoralize charms pleasure the moment blinded desire cannot foresee pain and trouble that are bound to ensue.",
+      "Booked a limo for our anniversary, and it was perfect,<b> Long Island Limo Service</b>.The service was top-notch, and the experience was unforgettable.",
     avatar: "/images/review-info.png",
     stars: "/images/star.png",
   },
