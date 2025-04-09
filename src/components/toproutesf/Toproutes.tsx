@@ -5,28 +5,28 @@ const Toproutesdata = [
         id: 1,
         City1: "JKF",
         City2: "NYC",
-        image: "/images/news1.jpg"
+        image: "/images/nyc1.jpeg"
 
     },
     {
         id: 2,
-        City1: "JKF",
-        City2: "NYC",
-        image: "/images/news1.jpg"
+        City1: "NYC",
+        City2: "Hamptons",
+        image: "/images/HamptonsCityBeach.jpg"
 
     },
     {
         id: 3,
-        City1: "JKF",
-        City2: "NYC",
-        image: "/images/news1.jpg"
+        City1: "NYC",
+        City2: "Boston",
+        image: "/images/Boston.jpeg"
 
     },
     {
         id: 4,
         City1: "JKF",
-        City2: "NYC",
-        image: "/images/news1.jpg"
+        City2: "Philadelphia",
+        image: "/images/Philadelphia.jpeg"
     }
 ]
 const Toproutes = () => {

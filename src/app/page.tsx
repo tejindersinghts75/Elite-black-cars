@@ -37,9 +37,9 @@ export default function Home() {
       <Maketrip />
       <Showcase />
       <Services />
-      <Review />
+      {/* <Review /> */}
       <Region />
-      <News />
+      {/* <News /> */}
       <Faq />
       <Toproutes />
       <Footer />

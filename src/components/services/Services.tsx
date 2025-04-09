@@ -13,28 +13,28 @@ const servicesData = [
         title: "Airport Transfers",
         description:
             "One of the joys of intercity travel is the opportunity to witness the beauty of...",
-        image: "/images/service1.jpg",
+        image: "/images/services1.png",
     },
     {
         id: 2,
         title: "City Tours",
         description:
             "Experience the beauty and culture of your city like never before...",
-            image: "/images/service1.jpg",
+            image: "/images/services2.png",
     },
     {
         id: 3,
         title: "Corporate Travel",
         description:
             "Business trips made easy with our seamless and comfortable services...",
-            image: "/images/service1.jpg",
+            image: "/images/services3.png",
     },
     {
         id: 4,
         title: "Event Transport",
         description:
             "From weddings to conferences, travel in style with our premium services...",
-            image: "/images/service1.jpg",
+            image: "/images/services2.png",
     },
 ];
 
