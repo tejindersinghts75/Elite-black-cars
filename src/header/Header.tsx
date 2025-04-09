@@ -22,7 +22,7 @@ const Header = () => {
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img className="h-6 w-auto max-w-[196px]" src="/images/logo-white.svg" alt="Logo" />
+                            <img className="h-[60px] w-auto max-w-[196px]" src="/images/Logo_main1.svg" alt="Logo" />
                         </a>
                     </div>
                     <div className="flex lg:hidden">
@@ -92,7 +92,7 @@ const Header = () => {
                         <div className="flex items-center justify-between">
                             <a href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
-                                <img className="h-6 w-auto max-w-[196px]" src="/images/logoDark.svg" alt="Logo" />
+                                <img className="h-[60px] w-auto max-w-[196px]" src="/images/Logo_main1.svg" alt="Logo" />
                             </a>
                             <button type="button" onClick={toggleMenu} className="-m-2.5 rounded-md p-2.5 text-white">
                                 <span className="sr-only">Close menu</span>
