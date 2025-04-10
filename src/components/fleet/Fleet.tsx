@@ -32,78 +32,78 @@ const fleetData = [
     passengers: 4,
     luggage: 3,
   },
-  {
-    id: 4,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
-    image: "/images/Ourfleet1.png",
-    passengers: 4,
-    luggage: 3,
-  },
-  {
-    id: 5,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
-    image: "/images/Ourfleet2.png",
-    passengers: 4,
-    luggage: 3,
-  },
-  {
-    id: 6,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
-    image: "/images/Ourfleet3.png",
-    passengers: 4,
-    luggage: 3,
-  },
-  {
-    id: 7,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
-    image: "/images/Ourfleet1.png",
-    passengers: 4,
-    luggage: 3,
-  },
-  {
-    id: 8,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
-    image: "/images/Ourfleet2.png",
-    passengers: 4,
-    luggage: 3,
-  },
-  {
-    id: 9,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
-    image: "/images/Ourfleet3.png",
-    passengers: 4,
-    luggage: 3,
-  },
-  {
-    id: 10,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
-    image: "/images/Ourfleet1.png",
-    passengers: 4,
-    luggage: 3,
-  },
-  {
-    id: 11,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
-    image: "/images/Ourfleet2.png",
-    passengers: 4,
-    luggage: 3,
-  },
-  {
-    id: 12,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
-    image: "/images/Ourfleet3.png",
-    passengers: 4,
-    luggage: 3,
-  },
+  // {
+  //   id: 4,
+  //   name: "Audi Q3 Sportback",
+  //   description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+  //   image: "/images/Ourfleet1.png",
+  //   passengers: 4,
+  //   luggage: 3,
+  // },
+  // {
+  //   id: 5,
+  //   name: "Audi Q3 Sportback",
+  //   description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+  //   image: "/images/Ourfleet2.png",
+  //   passengers: 4,
+  //   luggage: 3,
+  // },
+  // {
+  //   id: 6,
+  //   name: "Audi Q3 Sportback",
+  //   description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+  //   image: "/images/Ourfleet3.png",
+  //   passengers: 4,
+  //   luggage: 3,
+  // },
+  // {
+  //   id: 7,
+  //   name: "Audi Q3 Sportback",
+  //   description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+  //   image: "/images/Ourfleet1.png",
+  //   passengers: 4,
+  //   luggage: 3,
+  // },
+  // {
+  //   id: 8,
+  //   name: "Audi Q3 Sportback",
+  //   description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+  //   image: "/images/Ourfleet2.png",
+  //   passengers: 4,
+  //   luggage: 3,
+  // },
+  // {
+  //   id: 9,
+  //   name: "Audi Q3 Sportback",
+  //   description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+  //   image: "/images/Ourfleet3.png",
+  //   passengers: 4,
+  //   luggage: 3,
+  // },
+  // {
+  //   id: 10,
+  //   name: "Audi Q3 Sportback",
+  //   description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+  //   image: "/images/Ourfleet1.png",
+  //   passengers: 4,
+  //   luggage: 3,
+  // },
+  // {
+  //   id: 11,
+  //   name: "Audi Q3 Sportback",
+  //   description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+  //   image: "/images/Ourfleet2.png",
+  //   passengers: 4,
+  //   luggage: 3,
+  // },
+  // {
+  //   id: 12,
+  //   name: "Audi Q3 Sportback",
+  //   description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+  //   image: "/images/Ourfleet3.png",
+  //   passengers: 4,
+  //   luggage: 3,
+  // },
   // Add other fleet data here
 ];
 
@@ -153,7 +153,8 @@ const Fleet = () => {
     <div className="" >
 
       <div ref={sectionRef} className=" md:block hidden fleet-main pt-20 ">
-        <div className="h-[200vh] relative">
+        <div className="h-[100vh] relative">
+        {/* h-[200vh] */}
           <div className="fleet sticky top-40 h-screen px-4 ">
             <div className=" container">
               <div data-aos="fade-up"  className="flex  mb-12 relative z-10 mb-10 justify-between">

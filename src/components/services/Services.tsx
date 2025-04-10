@@ -29,13 +29,7 @@ const servicesData = [
             "Business trips made easy with our seamless and comfortable services...",
             image: "/images/services3.png",
     },
-    {
-        id: 4,
-        title: "Event Transport",
-        description:
-            "From weddings to conferences, travel in style with our premium services...",
-            image: "/images/services2.png",
-    },
+
 ];
 
 const Services = () => {
@@ -79,8 +73,8 @@ const Services = () => {
                     <div className="center"></div>
                     <div className="end"> </div>
                 </div>
-                <div data-aos="fade-up" >
-                <Slider  ref={sliderRef} {...sliderSettings} className="services-slider">
+                <div className="grid-cols-3 grid" data-aos="fade-up" >
+                {/* <Slider  ref={sliderRef} {...sliderSettings} className="services-slider"> */}
                     {servicesData.map((service) => (
                         <div key={service.id} className="px-2">
                             <ServicesCard
@@ -90,9 +84,9 @@ const Services = () => {
                             />
                         </div>
                     ))}
-                </Slider>
+                {/* </Slider> */}
                 </div>
-                <div className="mt-10 relative z-10 services-btn flex">
+                {/* <div className="mt-10 relative z-10 services-btn flex">
                     <button
                         className="w-[50px] h-[50px] me-2 border border-gray rounded-full text-white flex items-center justify-center   "
                         onClick={() => sliderRef.current?.slickPrev()}
@@ -105,7 +99,7 @@ const Services = () => {
                     >
                         <GoArrowRight className="text-dark" />
                     </button>
-                </div>
+                </div> */}
             </div>
         </div>
     );
