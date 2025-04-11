@@ -11,21 +11,21 @@ const Maketrip = () => {
       icon: IoShieldCheckmarkSharp,
       title: "Safety First",
       description:
-        "We believe that <b>luxury and safety </b> are closely correlated to each other. That’s why we prioritize  <b> top-tier safety standards  </b> to ensure a secure, stress-free, and premium travel experience for every passenger. Whether you're traveling for business, leisure, or a special occasion, <b> your safety is our top concern. </b>",
+        "We believe that <b>luxury and safety </b> are closely correlated to each other. That’s why we prioritize  <b> top-tier safety standards  </b>",
     },
     {
       id: 2,
       icon: FaCommentDollar,
       title: "Prices With No Surprises",
       description:
-        "At <b> Elite B Car, </b> we believe in <b> honest pricing with no hidden fees </b>. Whether you're booking a luxury sedan for a business trip or a premium SUV for a weekend getaway, you’ll always know exactly what you’re paying for  <b>—no last-minute surprises, no extra charges. </b>",
+        "At <b> Elite B Car, </b> we believe in <b> honest pricing with no hidden fees </b>. Whether you're booking a luxury sedan for a business trip or a premium SUV ",
     },
     {
       id: 3,
       icon: FaCar,
       title: "High-End Private Transfers",
       description:
-        "With Elite B car, Experience  <b>exclusive, hassle-free travel  </b> with our <b> private luxury  </b> car services. Whether you're a business traveller, a VIP guest, or simply someone who values privacy, <b> Luxride offers  tailored travel solutions  </b>to match your needs.",
+        "With Elite B car, Experience  <b>exclusive, hassle-free travel  </b> with our <b> private luxury  </b> car services to match your needs.",
     },
   ];
 

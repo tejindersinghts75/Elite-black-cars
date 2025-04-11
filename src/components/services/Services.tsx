@@ -64,9 +64,9 @@ const Services = () => {
             <div className="container">
                 <div data-aos="fade-up"  className="flex relative z-10 mb-10 justify-between">
                     <h2>Our Services</h2>
-                    <a href="#" className="font-semibold w-fit flex gap-2 items-center">
+                    {/* <a href="#" className="font-semibold w-fit flex gap-2 items-center">
                         <span>More Fleet</span> <FiArrowUpRight />
-                    </a>
+                    </a> */}
                 </div>
                 <div className="slider-over">
                     <div className="start"></div>

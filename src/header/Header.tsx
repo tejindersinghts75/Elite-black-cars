@@ -74,13 +74,13 @@ const Header = () => {
                             </div>
                         </div> */}
 
-                        <a href="#" className="text-sm hover:text-orange font-normal">Home  </a>
+                        {/* <a href="#" className="text-sm hover:text-orange font-normal">Home  </a> */}
                         <a href="#" className="text-sm hover:text-orange font-normal">About Us  </a>
-                        <a href="#" className="text-sm hover:text-orange font-normal">Contact Us  </a>
-                        <div className="flex gap-2">
+                        {/* <a href="#" className="text-sm hover:text-orange font-normal">Contact Us  </a> */}
+                        {/* <div className="flex gap-2">
                             <Button text="Sign Up" bg="bg-white" color="text-dark" />
                             <Button text="Book now" bg="bg-orange" color="text-white" />
-                        </div>
+                        </div> */}
 
                     </div>
                 </nav>

@@ -10,26 +10,26 @@ import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 const fleetData = [
   {
     id: 1,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+    name: "Cadillac Escalade",
+    description: "Premium Luxury SUV",
     image: "/images/Ourfleet1.png",
-    passengers: 4,
-    luggage: 3,
+    passengers: 5,
+    luggage: 5,
   },
   {
     id: 2,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+    name: "Cadilac XT6",
+    description: "Small SUV",
     image: "/images/Ourfleet2.png",
-    passengers: 4,
-    luggage: 3,
+    passengers: 5,
+    luggage: 5,
   },
   {
     id: 3,
-    name: "Audi Q3 Sportback",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+    name: "Mercedes",
+    description: "Luxury Sedan",
     image: "/images/Ourfleet3.png",
-    passengers: 4,
+    passengers: 3,
     luggage: 3,
   },
   // {
@@ -159,9 +159,9 @@ const Fleet = () => {
             <div className=" container">
               <div data-aos="fade-up"  className="flex  mb-12 relative z-10 mb-10 justify-between">
                 <h2>Our Fleet</h2>
-                <a href="#" className="font-semibold w-fit flex gap-2 items-center">
+                {/* <a href="#" className="font-semibold w-fit flex gap-2 items-center">
                   <span>More Fleet</span> <FiArrowUpRight />
-                </a>
+                </a> */}
               </div>
             </div>
 
